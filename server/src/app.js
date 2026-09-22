@@ -16,7 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://doctor-finder-brown.vercel.app",
     credentials: true,
   })
 );
