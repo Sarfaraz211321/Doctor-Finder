@@ -41,7 +41,7 @@ const UserLogin = () => {
           })
         );
 
-        navigate("/dashboard");
+        navigate("/");
       }
     } catch (error) {
       setError(
