@@ -57,7 +57,7 @@ const UserRegister = () => {
           })
         );
 
-        navigate("/dashboard");
+        navigate("/");
       }
     } catch (error) {
       setError(
